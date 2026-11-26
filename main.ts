@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync, chmodSync } from "node:fs";
 import { dirname } from "node:path";
 
 const EXCUSE =
-  "Can't make it — I'm trapped in a meeting about this meeting, and it's already running 20 minutes over.";
+  "Can't make it — I'm stuck in a meeting about this meeting, and it's already 20 minutes over. Send snacks.";
 
 const outPath = process.env.ENTRY_OUTPUT ?? "/output/entry.txt";
 const outDir = dirname(outPath);
